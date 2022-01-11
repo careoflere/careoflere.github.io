@@ -1,0 +1,30 @@
+$grey: #1B1B1B;
+$grey2: #2C3539;
+.article-content{
+    display: grid;
+    grid-auto-flow: row;
+    justify-items: center;
+    align-content: center;
+    color: white;
+    // &:nth-child(even){
+    //     background: $grey;
+    // }
+    // &:nth-child(odd){
+    //     background: $grey2;
+    // }
+    
+    background-color: $grey;
+
+    h1{
+        display: grid;
+        text-align: center;
+        font-size: 3rem;
+    }
+    p{
+        display: grid;
+        text-align: justify;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        
+    }
+}

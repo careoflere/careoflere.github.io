@@ -1,0 +1,25 @@
+.article-content {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-flow: row;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  color: white;
+  background-color: #1B1B1B;
+}
+
+.article-content h1 {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.article-content p {
+  display: -ms-grid;
+  display: grid;
+  text-align: justify;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}

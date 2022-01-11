@@ -1,0 +1,48 @@
+$grey: #1B1B1B;
+$hover: rgb(255, 174, 0);
+
+.head-navigation{
+    // display: flex;
+    // flex-direction: column;
+    display: grid;
+    grid-auto-flow: row;
+    justify-content: center;
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    
+    nav{
+      display: grid;
+      grid-auto-flow: row;
+      justify-content: center;
+      text-align: center;
+      margin-top: 2rem;
+      justify-items: center;
+      gap: 1rem;
+      
+      a{
+        display: grid;
+        text-decoration: none;
+        color: $grey;
+        transition: .3s;
+        font-weight: 500;
+        border-bottom: 4px solid transparent;
+            
+            &:hover{
+                color: $hover;
+                border-bottom: 4px solid $hover;
+            }
+      }
+
+      #nav-logo{
+        display: grid;
+        text-align: center;
+        width: 4rem;
+        border-radius: 50%;
+        border: 3px solid transparent;
+
+        &:hover{
+            border: 3px solid $hover;
+        }
+      }
+    }
+}
