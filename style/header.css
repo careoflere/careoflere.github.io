@@ -38,6 +38,14 @@
   border-bottom: 4px solid #ffae00;
 }
 
+@media (min-width: 1000px) {
+  .head-navigation nav a {
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
 .head-navigation nav #nav-logo {
   display: -ms-grid;
   display: grid;
@@ -49,4 +57,19 @@
 
 .head-navigation nav #nav-logo:hover {
   border: 3px solid #ffae00;
+}
+
+@media (min-width: 1000px) {
+  .head-navigation nav #nav-logo {
+    text-align: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .head-navigation nav {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+  }
 }

@@ -27,4 +27,8 @@ $grey2: #2C3539;
         margin-right: 1rem;
         
     }
+
+    @media (min-width: 1000px){
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
