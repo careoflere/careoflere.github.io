@@ -39,6 +39,14 @@ $hover: rgb(255, 174, 0);
           }
       }
 
+      #homepage{
+        a{
+          &:hover{
+            border-bottom: 4px solid transparent;
+          }
+        }
+      }
+
       #nav-logo{
         display: grid;
         text-align: center;

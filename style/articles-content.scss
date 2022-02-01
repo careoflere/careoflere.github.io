@@ -1,5 +1,5 @@
 $grey: #1B1B1B;
-$grey2: #2C3539;
+$grey2: #1f1f1f;
 $hover: rgb(255, 174, 0);
 .article-content{
     display: grid;
@@ -14,7 +14,7 @@ $hover: rgb(255, 174, 0);
     //     background: $grey2;
     // }
     
-    background-color: $grey;
+    background-color: $grey2;
     box-sizing: border-box;
     width: 100%;
 
@@ -22,7 +22,7 @@ $hover: rgb(255, 174, 0);
         display: grid;
         text-align: center;
         font-size: 3rem;
-        margin: 4rem 2rem;
+        margin: 2rem;
         box-sizing: border-box;
     }
     p{
@@ -39,6 +39,7 @@ $hover: rgb(255, 174, 0);
         width: 80vw;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 3rem;
 
         border: 4px solid $hover;
         border-radius: 20px;

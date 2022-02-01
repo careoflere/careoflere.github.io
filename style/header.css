@@ -46,6 +46,10 @@
   }
 }
 
+.head-navigation nav #homepage a:hover {
+  border-bottom: 4px solid transparent;
+}
+
 .head-navigation nav #nav-logo {
   display: -ms-grid;
   display: grid;
@@ -73,3 +77,4 @@
         grid-template-columns: repeat(4, 1fr);
   }
 }
+/*# sourceMappingURL=header.css.map */

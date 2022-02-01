@@ -1,0 +1,36 @@
+$grey: #1B1B1B;
+$grey2: #2C3539;
+$hover: rgb(255, 174, 0);
+
+.web-footer{
+    margin: 0;
+    padding: 0;
+    // margin-top: 2rem;
+    // margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    background-color: #1a1919;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    font-size: 1rem;
+
+
+    strong{
+        font-weight: 300;
+        color: cyan;
+    }
+    
+    a{
+        text-decoration: none;
+        color: #cc72cc;
+        border-bottom: 3px solid transparent;
+        transition: 0.6s;
+
+        &:hover{
+            border-bottom: 3px solid #cc72cc;    
+        }
+    }
+}
